@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/gradle" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/studyShop-common" />
+            <option value="$PROJECT_DIR$/studyShop-manager" />
+            <option value="$PROJECT_DIR$/studyShop-mapper" />
+            <option value="$PROJECT_DIR$/studyShop-pojo" />
+            <option value="$PROJECT_DIR$/studyShop-service" />
+            <option value="$PROJECT_DIR$/studyShop-web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

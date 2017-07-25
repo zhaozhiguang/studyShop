@@ -1,0 +1,8 @@
+rootProject.name = 'studyShop'
+include 'studyShop-common'
+include 'studyShop-manager'
+include 'studyShop-pojo'
+include 'studyShop-mapper'
+include 'studyShop-service'
+include 'studyShop-web'
+

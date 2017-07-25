@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-common.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-common.iml" group="studyShop-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-common/studyShop-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-common/studyShop-common_main.iml" group="studyShop-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-common/studyShop-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-common/studyShop-common_test.iml" group="studyShop-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-manager.iml" group="studyShop-manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-manager/studyShop-manager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-manager/studyShop-manager_main.iml" group="studyShop-manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-manager/studyShop-manager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-manager/studyShop-manager_test.iml" group="studyShop-manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-mapper.iml" group="studyShop-mapper" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-mapper/studyShop-mapper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-mapper/studyShop-mapper_main.iml" group="studyShop-mapper" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-mapper/studyShop-mapper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-mapper/studyShop-mapper_test.iml" group="studyShop-mapper" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-pojo.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-pojo.iml" group="studyShop-pojo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-pojo/studyShop-pojo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-pojo/studyShop-pojo_main.iml" group="studyShop-pojo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-pojo/studyShop-pojo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-pojo/studyShop-pojo_test.iml" group="studyShop-pojo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-service.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-service.iml" group="studyShop-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-service/studyShop-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-service/studyShop-service_main.iml" group="studyShop-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-service/studyShop-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-service/studyShop-service_test.iml" group="studyShop-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-web.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-web.iml" group="studyShop-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-web/studyShop-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-web/studyShop-web_main.iml" group="studyShop-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop-web/studyShop-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop-web/studyShop-web_test.iml" group="studyShop-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop_main.iml" group="studyShop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studyShop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studyShop_test.iml" group="studyShop" />
+    </modules>
+  </component>
+</project>

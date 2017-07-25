@@ -1,0 +1,110 @@
+allprojects{
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+}
+
+subprojects{
+    repositories {
+        mavenLocal()
+        /*maven{
+            url "file://D:/maven/repo"
+        }*/
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+    }
+    ext{
+        logbackVersion = "1.2.3"
+        junitVersion = '4.12'
+        springVersion = '4.1.3.RELEASE'
+        mybatisVersion = '3.2.8'
+        mybatis_springVersion = '1.2.2'
+        mybatis_pagintorVersion = '1.2.15'
+        mysqlVersion = '5.1.32'
+        slf4jVersion = '1.6.4'
+        jacksonVersion = '2.4.2'
+        druidVersion = '1.0.9'
+        httpclienVersion = '4.3.5'
+        jstlVersion = '1.2'
+        servletapiVersion = '3.0.1'
+        jspapiVersion = '2.2'
+        jodatimeVersion = '2.5'
+        commonslang3Version = '3.3.2'
+        commonsioVersion = '1.3.2'
+        commonsnetVersion = '3.3'
+        pagehelperVersion = '3.4.2'
+        jsqlparserVersion = '0.9.1'
+        commonsfileuploadVersion = '1.3.1'
+        jedisVersion = '2.7.2'
+        solrjVersion = '4.10.3'
+    }
+    dependencies {
+        /**
+         * 日志处理
+         */
+        compile group: 'ch.qos.logback', name: 'logback-classic', version: logbackVersion
+        /**
+         * 时间操作组件
+         */
+        compile group: 'joda-time', name: 'joda-time', version: jodatimeVersion
+        /**
+         * Apache工具组件
+         */
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: commonslang3Version
+        compile group: 'org.apache.commons', name: 'commons-io', version: commonsioVersion
+        compile group: 'commons-net', name: 'commons-net', version: commonsnetVersion
+        /**
+         * Jackson Json处理工具包
+         */
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+        /**
+         * httpclient
+         */
+        compile group: 'org.apache.httpcomponents', name: 'httpclient', version: httpclienVersion
+        /**
+         * 单元测试
+         */
+        testCompile group: 'junit', name: 'junit', version: junitVersion
+        /**
+         *
+         */
+        compile group: 'org.mybatis', name: 'mybatis', version: mybatisVersion
+        compile group: 'org.mybatis', name: 'mybatis-spring', version: mybatis_springVersion
+        compile group: 'com.github.miemiedev', name: 'mybatis-paginator', version: mybatis_pagintorVersion
+        compile group: 'com.github.pagehelper', name: 'pagehelper', version: pagehelperVersion
+        /**
+         * mysql
+         */
+        compile group: 'mysql', name: 'mysql-connector-java', version: mysqlVersion
+        /**
+         * 连接池
+         */
+        compile group: 'com.alibaba', name: 'druid', version: druidVersion
+        /**
+         * spring
+         */
+        compile group: 'org.springframework', name: 'spring-context', version: springVersion
+        compile group: 'org.springframework', name: 'spring-beans', version: springVersion
+        compile group: 'org.springframework', name: 'spring-webmvc', version: springVersion
+        compile group: 'org.springframework', name: 'spring-jdbc', version: springVersion
+        compile group: 'org.springframework', name: 'spring-aspects', version: springVersion
+        /**
+         * jsp相关
+         */
+        compile group: 'jstl', name: 'jstl', version: jstlVersion
+        testCompile group: 'javax.servlet', name: 'javax.servlet-api', version: servletapiVersion
+        testCompile group: 'javax.servlet.jsp', name: 'jsp-api', version: jspapiVersion
+        /**
+         * 文件上传组件
+         */
+        compile group: 'commons-fileupload', name: 'commons-fileupload', version: commonsfileuploadVersion
+        /**
+         * Redis客户端
+         */
+        compile group: 'redis.clients', name: 'jedis', version: jedisVersion
+        /**
+         * solr客户端
+         */
+        compile group: 'org.apache.solr', name: 'solr-solrj', version: solrjVersion
+    }
+}
+

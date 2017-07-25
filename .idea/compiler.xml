@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="studyShop-common_main" target="1.8" />
+      <module name="studyShop-common_test" target="1.8" />
+      <module name="studyShop-manager_main" target="1.8" />
+      <module name="studyShop-manager_test" target="1.8" />
+      <module name="studyShop-mapper_main" target="1.8" />
+      <module name="studyShop-mapper_test" target="1.8" />
+      <module name="studyShop-pojo_main" target="1.8" />
+      <module name="studyShop-pojo_test" target="1.8" />
+      <module name="studyShop-service_main" target="1.8" />
+      <module name="studyShop-service_test" target="1.8" />
+      <module name="studyShop-web_main" target="1.8" />
+      <module name="studyShop-web_test" target="1.8" />
+      <module name="studyShop_main" target="1.8" />
+      <module name="studyShop_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

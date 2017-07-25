@@ -1,0 +1,5 @@
+apply plugin: 'war' //官网
+
+dependencies{
+    compile project(":studyShop-service")
+}
